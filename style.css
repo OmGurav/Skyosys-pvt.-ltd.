@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    color: rgb(194, 15, 155);
+    font-size: 40px;
+    text-shadow: #ff99cc;
+    font-weight: 600;
+}
+.nav-item{
+    font-size: 23px;
+    padding-left: 30px;
+}
+.home{
+    background: linear-gradient(to top left, #ff99cc 0%, #33ccff 100%);
+}
+
+.home_img{
+    padding-top: 80px;
+    width: 100%;
+}
+
+.avtar_img{
+    width: 100%;
+}
+
+.aboutus_text
+{
+	font-size:25px;
+	word-spacing:8px;
+}
+
+.card-section{
+    background: linear-gradient(to top left, #ff99cc 0%, #33ccff 100%);
+}
+.card-section a{
+    text-decoration: none;
+    color: #e04090;
+    font-size: 23px;
+}
+.card-section a:hover{
+    text-decoration: underline;
+    color: #e04090;
+    font-size: 25px;
+}
+.card
+{
+	box-shadow: 2px 4px 10px black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.card-text{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.form-title{
+    color: #f16bae;
+}
+
+#ft-logo{
+    color: rgb(194, 15, 155);
+    font-size: 35px;
+    text-shadow: #ff99cc;
+    font-weight: 600;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer p:hover{
+    text-decoration: underline;
+}
+.footer span{
+    padding-left: 20px;
+}
